@@ -339,7 +339,16 @@ header.sticky{
 	border: none;
 	border-radius: 15px;
 }
-.newsletter form input:last-child{
+#text{
+	display: inline-block;
+	width: 100%;
+	padding: 20px 150px 20px 30px;
+	box-shadow: 5px 10px 30px rgb(85 85 85 / 20%);
+	outline: none;
+	border: none;
+	border-radius: 15px;
+}
+/*.newsletter form input:last-child{
 	display: inline-block;
 	position: absolute;
 	outline: none;
@@ -351,7 +360,20 @@ header.sticky{
 	top: 6px;
 	right: 6px;
 	cursor: pointer;
-}
+} */
+.bot{
+
+	padding: 14px 30px;
+	border-radius: 15px;
+	background: var(--main-color);
+	color: var(--bg-color);
+	top: 6px;
+	right: 6px;
+	cursor: pointer;
+	text-align: center !important;
+	border: none;
+	width: 100%;
+} 
 
 #contact{
 	background: var(--main-color);
